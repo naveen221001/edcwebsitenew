@@ -1,3 +1,8 @@
+html,body{
+  overflow-x: hidden;
+  min-height: 100%;
+}
+
 body{
     width: 100%;
     overflow-x: hidden;
@@ -5,9 +10,13 @@ body{
 }
 #mp{
     background-image: url(img/bg.jpeg); 
-    background-size: cover;
+    height: 100%;
     padding-bottom: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .sticky {
     position: fixed;
     top: 0;
@@ -27,9 +36,7 @@ a {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.container{
-    display: inline-block;
-  }
+
 
 .typed-out{
     display: flex;
@@ -51,3 +58,14 @@ a {
     from, to { border-color: transparent }
     50% { border-color: orange }
   }
+.k {
+  font-size: larger;
+  text-decoration: solid;
+  text-align: center;
+  justify-content: center;
+    
+}
+
+#b{
+  background-color: black;
+}
