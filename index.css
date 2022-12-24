@@ -7,7 +7,7 @@ html,body{
 
 body{
     width: 100%;
-    overflow-x: visible;
+    overflow-x: hdden;
     margin: 0%;
 }
 #mp{
@@ -61,3 +61,5 @@ a {
   background-size: cover;
 }
 
+#footer{padding-top: 6%;
+background-color: rgb(51,45,45);}
