@@ -46,14 +46,17 @@ a {
   text-decoration: solid;
   text-align: center;
   justify-content: center;
+  color: black;
     
 }
 #values{
-  height:100vh;
+  height:100%;
+  
+  background-size: cover;
 
 }
 #motto{
-  background-image: url(img/bg2.jpg);
+  background-image: url(img/cover.png);
   height: 100vh;
   background-size: cover;
 }
