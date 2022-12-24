@@ -7,12 +7,12 @@ html,body{
 
 body{
     width: 100%;
-    overflow-x: hdden;
+    overflow-x:hidden;
     margin: 0%;
 }
 #mp{
     background-image: url(img/bg5.jpg); 
-    height: 100vh;
+    min-height: 100vh;
     padding-bottom: 5%;
    
     background-position: center;
@@ -45,20 +45,24 @@ a {
   font-size: larger;
   text-decoration: solid;
   text-align: center;
-  justify-content: center;
+
   color: black;
+  
+  align-items: center;
     
 }
 #values{
   height:100%;
-  
+  background-image: url(img/b.png);
   background-size: cover;
+  color: black;
 
 }
 #motto{
   background-image: url(img/cover.png);
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
+
 }
 
 #footer{padding-top: 6%;
